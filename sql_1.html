@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>SQL</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap");
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+
+      .header {
+        background-color: #FBBE36;
+        color: black;
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-bottom: 4px solid black;
+        font-family: "Playwrite DE Grund", cursive;
+      }
+
+      .content ul {
+        list-style-type: none;
+        text-align: justify;
+        width: 75vw;
+        padding-right: 15px;
+      }
+
+      .content {
+        background-color: #FBBE36;
+        padding: 10px;
+        width: 100%;
+        font-size: 20px;
+        color: black;
+        display: flex;
+        justify-content: center;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .content ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      .content h2 {
+        font-size: 30px;
+        padding-left: 30px;
+        text-decoration: underline;
+      }
+      .black {
+        color: black;
+        border-bottom: 2px solid black;
+        padding-bottom: 15px;
+      }
+      .black img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Introduction to SQL</h1>
+
+      <h2>Day 5</h2>
+    </div>
+    <div class="content">
+      <ul>
+        <li>
+          SQL :
+          <p class="black">
+            Structured Query Language is a domain-specific language used to
+            manage data, especially in a relational database management system.
+            It is particularly useful in handling structured data, i.e., data
+            incorporating relations among entities and variables
+          </p>
+        </li>
+        <li>
+
+          <p>SQL Commands :</p>
+
+          <ol type="i" class="black">
+            <li>CREATE</li>
+            <li>DROP</li>
+            <li>ALTER</li>
+            <li>ADD</li>
+            <li>UPDATE</li>
+            <li>SET</li>
+          </ol>
+        </li>
+        <li> 
+          <div class="scrollbar" style="overflow: scroll;">
+          Creating a Database
+          <p class="black">
+            <img src="CREATE.png" />
+          </p>
+        </li>
+        <li>
+          Creating a Table Inside Database
+          <p class="black">
+            <img src="create_table.png" alt="" />
+            <img src="output1.png" alt="" />
+          </p>
+        </li>
+        <li>
+          Adding Data to the Table
+          <p class="black">
+            <img src="addData.png" alt="" />
+          </p>
+        </li>
+        <li>
+          Retrieving Data from a table
+          <p class="black">
+            <img src="retreive.png" alt="" />
+            <img src="output2.png" alt="" />
+          </div>
+        
+          </p>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
